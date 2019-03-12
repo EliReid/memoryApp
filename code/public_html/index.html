@@ -1,0 +1,35 @@
+<!--
+  Name: Elisabeth Reid
+-->
+
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf8"/>
+		<link rel="stylesheet" href="style.css"/>
+		<!--<script src="cardsClient.js"></script>-->
+	</head>
+
+	<body>
+
+		<div class="flex-container">
+		<div data-role="main" class="ui-content">
+			<form action="/game" method="get">
+				Participant ID:<br><br>
+  				<input type="text" name="ID" value=""><br><br>
+  				Select Difficulty:<br><br>
+
+  				<table>
+					<tr><input type="radio" name="difficulty" value="easy" checked> Easy </tr>
+  					<tr><input type="radio" name="difficulty" value="mid"> Medium </tr>
+  					<tr><input type="radio" name="difficulty" value="diff"> Difficult </tr>
+  				</table><br>
+  				<input type="submit" value="Submit"><br>
+			</form>
+		</div>
+		</div>
+	
+	</body>
+
+</html>
