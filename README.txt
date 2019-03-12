@@ -87,5 +87,5 @@ version 1.0
  - Error when csv file being recorded to is open in another program
  
  Improvements:
- - Need change how board is constructed on the client end to improve loading speed. Right now each tile is requires a async call to the server. Changing the board generating to initially occur on the client end may speed things up.
+ - Need to change how the board is constructed on the client end to improve loading speed. Right now each tile is requires a async call to the server. Changing the board generating to initially occur on the client end may speed things up.
  
